@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium Easy Test Project" duration-ms="253143" started-at="2020-04-16T13:57:06 IST" finished-at="2020-04-16T14:01:19 IST">
+    <groups>
+    </groups>
+    <test name="Search" duration-ms="253143" started-at="2020-04-16T13:57:06 IST" finished-at="2020-04-16T14:01:19 IST">
+      <class name="com.qa.setp.test.SearchPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.setp.test.SearchPageTest@1563da5]" name="setUp" is-config="true" duration-ms="26001" started-at="2020-04-16T13:57:07 IST" finished-at="2020-04-16T13:57:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSearchData(java.lang.String)[pri:0, instance:com.qa.setp.test.SearchPageTest@1563da5]" name="validateSearchData" duration-ms="38224" started-at="2020-04-16T13:57:33 IST" data-provider="getData" finished-at="2020-04-16T13:58:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abcdef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.setp.test.SearchPageTest@1563da5]" name="tearDown" is-config="true" duration-ms="1664" started-at="2020-04-16T13:58:11 IST" finished-at="2020-04-16T13:58:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.setp.test.SearchPageTest@1563da5]" name="setUp" is-config="true" duration-ms="18413" started-at="2020-04-16T13:58:13 IST" finished-at="2020-04-16T13:58:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSearchData(java.lang.String)[pri:0, instance:com.qa.setp.test.SearchPageTest@1563da5]" name="validateSearchData" duration-ms="27309" started-at="2020-04-16T13:58:31 IST" data-provider="getData" finished-at="2020-04-16T13:58:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.setp.test.SearchPageTest@1563da5]" name="tearDown" is-config="true" duration-ms="1467" started-at="2020-04-16T13:58:58 IST" finished-at="2020-04-16T13:59:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.setp.test.SearchPageTest@1563da5]" name="setUp" is-config="true" duration-ms="32603" started-at="2020-04-16T13:59:00 IST" finished-at="2020-04-16T13:59:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSearchData(java.lang.String)[pri:0, instance:com.qa.setp.test.SearchPageTest@1563da5]" name="validateSearchData" duration-ms="30613" started-at="2020-04-16T13:59:33 IST" data-provider="getData" finished-at="2020-04-16T14:00:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[%&^*&*(*(]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.setp.test.SearchPageTest@1563da5]" name="tearDown" is-config="true" duration-ms="1228" started-at="2020-04-16T14:00:03 IST" finished-at="2020-04-16T14:00:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.setp.test.SearchPageTest -->
+      <class name="com.qa.setp.test.SeleniumEasyHomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.setp.test.SeleniumEasyHomePageTest@2bbf4b8b]" name="setup" is-config="true" duration-ms="26212" started-at="2020-04-16T14:00:04 IST" finished-at="2020-04-16T14:00:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLogoLink()[pri:1, instance:com.qa.setp.test.SeleniumEasyHomePageTest@2bbf4b8b]" name="verifyLogoLink" duration-ms="8072" started-at="2020-04-16T14:00:31 IST" finished-at="2020-04-16T14:00:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.setp.test.SeleniumEasyHomePageTest@2bbf4b8b]" name="tearDown" is-config="true" duration-ms="1245" started-at="2020-04-16T14:00:39 IST" finished-at="2020-04-16T14:00:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.setp.test.SeleniumEasyHomePageTest@2bbf4b8b]" name="setup" is-config="true" duration-ms="27840" started-at="2020-04-16T14:00:40 IST" finished-at="2020-04-16T14:01:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyDemoLink()[pri:2, instance:com.qa.setp.test.SeleniumEasyHomePageTest@2bbf4b8b]" name="verifyDemoLink" duration-ms="8601" started-at="2020-04-16T14:01:08 IST" finished-at="2020-04-16T14:01:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDemoLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.setp.test.SeleniumEasyHomePageTest@2bbf4b8b]" name="tearDown" is-config="true" duration-ms="2350" started-at="2020-04-16T14:01:16 IST" finished-at="2020-04-16T14:01:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.setp.test.SeleniumEasyHomePageTest -->
+    </test> <!-- Search -->
+  </suite> <!-- Selenium Easy Test Project -->
+</testng-results>
